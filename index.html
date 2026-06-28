@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Padmavathi HP Gas Agency</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="logo-hp-gas.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /></noscript>
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <div class="nav-logo-img-wrap">
+        <img src="logo-hp-gas.png" alt="HP Gas Logo" class="logo-img" fetchpriority="high" />
+      </div>
+      <div class="logo-text">
+        <span class="logo-title">Sri Padmavathi</span>
+        <span class="logo-sub">HP Gas Agency</span>
+      </div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" onclick="showPage('home')">Home</a></li>
+      <li><a href="#about" class="nav-link" onclick="showPage('about')">About Us</a></li>
+      <li><a href="#services" class="nav-link" onclick="showPage('services')">Services</a></li>
+      <li><a href="#booking" class="nav-link" onclick="showPage('booking')">Book Gas</a></li>
+      <li><a href="#safety" class="nav-link" onclick="showPage('safety')">Safety</a></li>
+      <li><a href="#contact" class="nav-link" onclick="showPage('contact')">Contact</a></li>
+    </ul>
+    <button class="book-btn-nav" onclick="showPage('booking')">
+      <i class="fas fa-cylinder"></i> Book Now
+    </button>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== PAGE: HOME ========== -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-fire"></i> Kurnool's Trusted LPG Distributor Since 1985</div>
+      <h1 class="hero-title">
+        Pure Energy.<br/>
+        <span class="red-text">Delivered Safe.</span><br/>
+        Every Time.
+      </h1>
+      <p class="hero-desc">
+        Sri Padmavathi HP Gas Agency — Kurnool's most trusted authorised HP Gas dealership for reliable, safe, and timely LPG delivery right to your doorstep.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('booking')">
+          <i class="fas fa-cylinder"></i> Book Your Cylinder
+        </button>
+        <button class="btn-outline" onclick="showPage('about')">
+          <i class="fas fa-play-circle"></i> Learn More
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">35,000+</span>
+          <span class="stat-label">Happy Families</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">40+</span>
+          <span class="stat-label">Years of Service</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">99.9%</span>
+          <span class="stat-label">On-Time Delivery</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="cylinder-card">
+        <div class="cylinder-wrap">
+          <div class="cylinder-body">
+            <div class="cylinder-top"></div>
+            <div class="cylinder-mid">
+              <div class="cylinder-label">
+                <img src="logo-hp-gas.png" alt="HP Gas" />
+                <span>HP GAS</span>
+              </div>
+            </div>
+            <div class="cylinder-bot"></div>
+          </div>
+          <div class="flame-wrap">
+            <div class="flame f1"></div>
+            <div class="flame f2"></div>
+            <div class="flame f3"></div>
+          </div>
+        </div>
+        <div class="cylinder-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span><i class="fas fa-fire"></i> Safe LPG Delivery in Kurnool</span>
+      <span><i class="fas fa-phone"></i> Call: +91 98765 43210</span>
+      <span><i class="fas fa-clock"></i> Open Mon–Sat: 9AM–6PM</span>
+      <span><i class="fas fa-star"></i> Authorised HP Gas Dealer Since 1985</span>
+      <span><i class="fas fa-truck"></i> Same-Day Delivery Available</span>
+      <span><i class="fas fa-shield-halved"></i> BIS Certified Cylinders</span>
+      <span><i class="fas fa-map-marker-alt"></i> Serving Kurnool, Andhra Pradesh</span>
+      <span><i class="fas fa-fire"></i> Safe LPG Delivery in Kurnool</span>
+      <span><i class="fas fa-phone"></i> Call: +91 98765 43210</span>
+      <span><i class="fas fa-clock"></i> Open Mon–Sat: 9AM–6PM</span>
+      <span><i class="fas fa-star"></i> Authorised HP Gas Dealer Since 1985</span>
+      <span><i class="fas fa-truck"></i> Same-Day Delivery Available</span>
+      <span><i class="fas fa-shield-halved"></i> BIS Certified Cylinders</span>
+      <span><i class="fas fa-map-marker-alt"></i> Serving Kurnool, Andhra Pradesh</span>
+    </div>
+  </div>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Kurnool's Most Trusted <span class="red-text">HP Gas Dealer</span></h2>
+        <p>We go beyond just delivering gas — we deliver safety, trust, and peace of mind to every home in Kurnool.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <i class="fas fa-truck-fast"></i>
+          </div>
+          <h3>Fast Delivery</h3>
+          <p>Same-day and next-day delivery options available across Kurnool. We ensure your kitchen never runs out of gas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon red">
+            <i class="fas fa-shield-halved"></i>
+          </div>
+          <h3>100% Safe</h3>
+          <p>All cylinders are BIS certified and thoroughly checked before every delivery for your safety.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated customer support team is always available to assist you with any queries or emergencies.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon red">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3>Exceptional Service</h3>
+          <p>Our friendly, dedicated team goes above and beyond for every customer — professional, responsive, and always there when you need us.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3>Certified Dealer</h3>
+          <p>Authorised and certified HP Gas dealership with 40+ years of trusted service in Kurnool city.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon red">
+            <i class="fas fa-mobile-screen"></i>
+          </div>
+          <h3>Easy Booking</h3>
+          <p>Book your refill via phone, WhatsApp, or online. Simple, fast, and hassle-free process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER SECTION -->
+  <section class="section founder-section">
+    <div class="container">
+      <div class="founder-layout">
+        <div class="founder-visual">
+          <div class="founder-card">
+            <div class="founder-avatar-wrap">
+              <div class="founder-avatar">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <div class="founder-badge">
+                <i class="fas fa-star"></i> Founder
+              </div>
+            </div>
+            <div class="founder-name-card">
+              <h3>R.CH.Ranga Reddy</h3>
+              <span>Founder &amp; Chairman</span>
+            </div>
+            <div class="founder-since">
+              <i class="fas fa-calendar-check"></i> Since 1985
+            </div>
+          </div>
+        </div>
+        <div class="founder-text">
+          <span class="section-tag">Our Founder</span>
+          <h2>Built on Vision,<br/><span class="red-text">Driven by Trust</span></h2>
+          <p>Sri Padmavathi HP Gas Agency was founded in 1985 by <strong>R.CH.Ranga Reddy</strong> with a single, powerful vision — to bring safe, reliable, and affordable cooking gas to every home in Kurnool. What began as a small dealership has grown into one of the most trusted HP Gas agencies in Andhra Pradesh.</p>
+          <p>Under his dedicated leadership and unwavering commitment to quality and safety, the agency has served over 35,000 families across Kurnool for more than four decades. His legacy continues to inspire every delivery we make and every customer we serve.</p>
+          <div class="founder-values">
+            <div class="fv-item">
+              <i class="fas fa-handshake"></i>
+              <div>
+                <strong>Integrity</strong>
+                <span>Honest business, always</span>
+              </div>
+            </div>
+            <div class="fv-item">
+              <i class="fas fa-shield-halved"></i>
+              <div>
+                <strong>Safety First</strong>
+                <span>No compromise on safety</span>
+              </div>
+            </div>
+            <div class="fv-item">
+              <i class="fas fa-people-group"></i>
+              <div>
+                <strong>Community</strong>
+                <span>Serving Kurnool with pride</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section services-preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2>Everything You Need <span class="red-text">Under One Roof</span></h2>
+      </div>
+      <div class="services-row">
+        <div class="service-preview-card" onclick="showPage('services')">
+          <div class="sp-icon"><i class="fas fa-cylinder"></i></div>
+          <h3>Domestic LPG</h3>
+          <p>14.2 kg cylinders for home use with easy refill booking</p>
+          <span class="sp-link">Explore <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="service-preview-card" onclick="showPage('services')">
+          <div class="sp-icon"><i class="fas fa-industry"></i></div>
+          <h3>Commercial LPG</h3>
+          <p>19 kg &amp; bulk supply for restaurants, hotels, and industries</p>
+          <span class="sp-link">Explore <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="service-preview-card" onclick="showPage('services')">
+          <div class="sp-icon"><i class="fas fa-wrench"></i></div>
+          <h3>New Connection</h3>
+          <p>Get a new HP Gas connection with all documentation support</p>
+          <span class="sp-link">Explore <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="service-preview-card" onclick="showPage('services')">
+          <div class="sp-icon"><i class="fas fa-fire-extinguisher"></i></div>
+          <h3>Safety Inspection</h3>
+          <p>Free safety check of pipes, regulators, and connections</p>
+          <span class="sp-link">Explore <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CYLINDERS WE OFFER -->
+  <section class="section cylinders-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Products</span>
+        <h2>Cylinders We <span class="red-text">Offer</span></h2>
+        <p>Genuine HP Gas cylinders for every need — home, travel, and commercial use</p>
+      </div>
+      <div class="cylinders-grid">
+
+        <div class="cyl-card">
+          <div class="cyl-card-top blue">
+            <div class="cyl-art-wrap">
+              <div class="cyl-art-body"></div>
+            </div>
+          </div>
+          <div class="cyl-card-body">
+            <span class="cyl-weight">14.2 kg</span>
+            <h3>Domestic Cylinder</h3>
+            <p>Our most popular cylinder — perfect for everyday household cooking across Kurnool.</p>
+            <ul class="cyl-features">
+              <li><i class="fas fa-check"></i> Standard home cylinder</li>
+              <li><i class="fas fa-check"></i> Easy refill booking</li>
+              <li><i class="fas fa-check"></i> PMUY scheme supported</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('booking')">Book Now <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="cyl-card mini-card">
+          <div class="cyl-card-top red">
+            <div class="cyl-art-wrap">
+              <div class="cyl-art-body mini"></div>
+            </div>
+          </div>
+          <div class="cyl-card-body">
+            <span class="cyl-weight mini-wt">5 kg</span>
+            <h3>Mini Cylinder</h3>
+            <p>Compact and lightweight — ideal for small families, travel, or as a handy backup at home.</p>
+            <ul class="cyl-features">
+              <li><i class="fas fa-check"></i> Lightweight &amp; portable</li>
+              <li><i class="fas fa-check"></i> Easy to handle</li>
+              <li><i class="fas fa-check"></i> Great backup option</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Enquire <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="cyl-card">
+          <div class="cyl-card-top blue">
+            <div class="cyl-art-wrap">
+              <div class="cyl-art-body large"></div>
+            </div>
+          </div>
+          <div class="cyl-card-body">
+            <span class="cyl-weight">19 kg</span>
+            <h3>Commercial Cylinder</h3>
+            <p>High-volume supply for restaurants, hotels, bakeries, and industrial businesses in Kurnool.</p>
+            <ul class="cyl-features">
+              <li><i class="fas fa-check"></i> For restaurants &amp; hotels</li>
+              <li><i class="fas fa-check"></i> GST invoice provided</li>
+              <li><i class="fas fa-check"></i> Priority delivery</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Enquire <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag white">Customer Reviews</span>
+        <h2>What Kurnool Says <span class="white-text">About Us</span></h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Excellent service! Gas delivered within 2 hours of booking. Very professional and safe delivery team in Kurnool."</p>
+          <div class="reviewer">
+            <div class="avatar">RK</div>
+            <div>
+              <strong>Ramesh Kumar</strong>
+              <span>Kurnool City</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Using Sri Padmavathi HP Gas Agency for over 15 years. Never had a single issue. Best dealer in all of Kurnool!"</p>
+          <div class="reviewer">
+            <div class="avatar">PS</div>
+            <div>
+              <strong>Padma Srinivas</strong>
+              <span>Kurnool</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Quick booking, quick delivery, great prices. Highly recommend for all LPG needs in Kurnool!"</p>
+          <div class="reviewer">
+            <div class="avatar">VR</div>
+            <div>
+              <strong>Vijaya Rao</strong>
+              <span>Kurnool</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Store</span>
+        <h2>Visit <span class="red-text">Sri Padmavathi HP Gas</span> — Kurnool</h2>
+        <p>A modern, professional agency built to serve you better every day</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-tabs">
+        <button class="gtab active" onclick="filterGallery('all', this)">All Photos</button>
+        <button class="gtab" onclick="filterGallery('office', this)">Our Office</button>
+        <button class="gtab" onclick="filterGallery('equipment', this)">Showroom &amp; Equipment</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <div class="gallery-item" data-cat="office" onclick="openLightbox(0)">
+          <img src="office-view.jpeg" alt="Sri Padmavathi HP Gas Office" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Our Office Counter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-cat="office" onclick="openLightbox(1)">
+          <img src="office-wide.jpeg" alt="Office Wide View" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Office — Wide View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="equipment" onclick="openLightbox(2)">
+          <img src="accessories-display.jpeg" alt="Accessories Display" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Accessories Display</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-cat="office" onclick="openLightbox(3)">
+          <img src="office-interior.jpeg" alt="Office Interior" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Office Interior</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="office" onclick="openLightbox(4)">
+          <img src="customer-counter.jpeg" alt="Customer Service Counter" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Customer Service</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="equipment" onclick="openLightbox(5)">
+          <img src="gas-stoves.jpeg" alt="Gas Stoves Display" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Gas Stoves Showroom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="office" onclick="openLightbox(6)">
+          <img src="dealer-board.jpeg" alt="Dealer Info Board" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Dealer Info Board</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="office" onclick="openLightbox(7)">
+          <img src="pricing-board.jpeg" alt="Pricing & Info Board" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Pricing &amp; Info Board</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-cat="equipment" onclick="openLightbox(8)">
+          <img src="showroom-view.jpeg" alt="Showroom View" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Showroom — Full View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-cat="equipment" onclick="openLightbox(9)">
+          <img src="accessories-equipment.jpeg" alt="Accessories & Equipment" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-content">
+              <i class="fas fa-expand"></i>
+              <span>Equipment &amp; Accessories</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lb-close" onclick="closeLightbox()"><i class="fas fa-xmark"></i></button>
+    <button class="lb-prev" onclick="event.stopPropagation(); lbNav(-1)"><i class="fas fa-chevron-left"></i></button>
+    <button class="lb-next" onclick="event.stopPropagation(); lbNav(1)"><i class="fas fa-chevron-right"></i></button>
+    <div class="lb-inner" onclick="event.stopPropagation()">
+      <img id="lbImg" src="" alt="" />
+      <div class="lb-caption" id="lbCaption"></div>
+    </div>
+  </div>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <div class="cta-icon"><i class="fas fa-fire-flame-curved"></i></div>
+        <div>
+          <h2>Ready to Book Your Cylinder?</h2>
+          <p>Fast, safe, and reliable LPG delivery across Kurnool — with 5-star customer service</p>
+        </div>
+        <button class="btn-primary large" onclick="showPage('booking')">Book Now <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ========== PAGE: ABOUT ========== -->
+<div id="page-about" class="page">
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-tag white">Our Story</span>
+      <h1>About <span class="red-text">Sri Padmavathi HP Gas</span></h1>
+      <p>Four decades of trust, safety, and reliable energy delivery in Kurnool</p>
+    </div>
+    <div class="page-hero-wave"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">Who We Are</span>
+          <h2>Your Trusted <span class="red-text">HP Gas Partner</span> in Kurnool</h2>
+          <p>Sri Padmavathi HP Gas Agency is an authorised distributor of Hindustan Petroleum Corporation Limited (HPCL), one of India's most reputed energy companies. Established in 1985, we have proudly served thousands of households and businesses across Kurnool and the surrounding districts for over four decades.</p>
+          <p>As Kurnool's most experienced HP Gas dealer, our agency is built on the pillars of trust, safety, and customer satisfaction. Every cylinder that leaves our premises has been thoroughly inspected and certified, ensuring you receive nothing but the best.</p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Authorised HPCL Dealer Since 1985</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Government Licensed &amp; Certified</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>ISO Compliant Operations</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Trained &amp; Verified Delivery Staff</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-img-card">
+            <div class="about-badge-card">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Best Dealer Award</strong>
+                <span>HPCL — Kurnool</span>
+              </div>
+            </div>
+            <div class="about-img-inner">
+              <div class="about-logo-wrap">
+                <img src="logo-hp-gas.png" alt="HP Gas" class="about-logo-big" />
+              </div>
+              <div class="about-agency-name">Sri Padmavathi HP Gas Agency</div>
+              <div class="about-tagline">Authorised LPG Distributor — Kurnool</div>
+            </div>
+            <div class="about-stats-mini">
+              <div class="mini-stat">
+                <strong>1985</strong>
+                <span>Est. Year</span>
+              </div>
+              <div class="mini-stat">
+                <strong>35K+</strong>
+                <span>Families</span>
+              </div>
+              <div class="mini-stat">
+                <strong>40+</strong>
+                <span>Years</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION VISION -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="mv-grid">
+        <div class="mv-card mission">
+          <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Our Mission</h3>
+          <p>To provide safe, reliable, and affordable LPG solutions to every household and business in Kurnool, ensuring energy security for our community while maintaining the highest standards of service.</p>
+        </div>
+        <div class="mv-card vision">
+          <div class="mv-icon"><i class="fas fa-eye"></i></div>
+          <h3>Our Vision</h3>
+          <p>To be the most trusted and preferred HP Gas distributor in Andhra Pradesh, known for our commitment to safety, timely delivery, and unwavering dedication to customer satisfaction.</p>
+        </div>
+        <div class="mv-card values">
+          <div class="mv-icon"><i class="fas fa-heart"></i></div>
+          <h3>Our Values</h3>
+          <p>Safety first. Integrity always. We believe in transparent pricing, ethical business practices, and building lasting relationships with every customer in Kurnool and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Journey</span>
+        <h2>A Legacy of <span class="red-text">Trust &amp; Excellence</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1985</span>
+            <h4>Foundation</h4>
+            <p>Sri Padmavathi HP Gas Agency was established in Kurnool as an authorised HPCL distributor, beginning a legacy of trust and safe LPG delivery.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1995</span>
+            <h4>Expansion</h4>
+            <p>Extended our delivery network across Kurnool district, serving thousands of households reliably across the city and surrounding areas.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2005</span>
+            <h4>Commercial Launch</h4>
+            <p>Launched commercial LPG services for hotels, restaurants, and industries across Kurnool, becoming the city's go-to commercial gas supplier.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2010</span>
+            <h4>HPCL Excellence Award</h4>
+            <p>Received the HPCL Regional Excellence Award for outstanding service, safety standards, and customer satisfaction in Kurnool region.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2020</span>
+            <h4>Digital Booking</h4>
+            <p>Introduced digital booking via SMS, WhatsApp, and online platforms, making gas refill even more convenient for Kurnool customers.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2025</span>
+            <h4>40 Years &amp; 35,000+ Families</h4>
+            <p>Celebrating 40 glorious years of service in Kurnool, proudly serving over 35,000 happy families with same-day delivery and 24/7 support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ========== PAGE: SERVICES ========== -->
+<div id="page-services" class="page">
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-tag white">What We Offer</span>
+      <h1>Our <span class="red-text">Services</span></h1>
+      <p>Comprehensive LPG solutions for homes, businesses, and industries in Kurnool</p>
+    </div>
+    <div class="page-hero-wave"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="services-full-grid">
+
+        <div class="service-full-card">
+          <div class="sfc-header blue">
+            <i class="fas fa-house"></i>
+            <h3>Domestic LPG Supply</h3>
+          </div>
+          <div class="sfc-body">
+            <p>Safe and timely delivery of 14.2 kg HP Gas cylinders for all your household cooking needs in Kurnool. Available for both regular and Pradhan Mantri Ujjwala Yojana (PMUY) connections.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> 14.2 kg standard cylinders</li>
+              <li><i class="fas fa-check"></i> 5 kg mini cylinders available</li>
+              <li><i class="fas fa-check"></i> PMUY scheme support</li>
+              <li><i class="fas fa-check"></i> Same-day delivery option</li>
+              <li><i class="fas fa-check"></i> Doorstep delivery across Kurnool</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('booking')">Book Now</button>
+          </div>
+        </div>
+
+        <div class="service-full-card">
+          <div class="sfc-header red">
+            <i class="fas fa-industry"></i>
+            <h3>Commercial LPG Supply</h3>
+          </div>
+          <div class="sfc-body">
+            <p>High-volume LPG supply for restaurants, hotels, bakeries, caterers, and industrial use in Kurnool. We offer flexible supply schedules and dedicated account managers.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> 19 kg commercial cylinders</li>
+              <li><i class="fas fa-check"></i> Bulk supply available</li>
+              <li><i class="fas fa-check"></i> Dedicated account manager</li>
+              <li><i class="fas fa-check"></i> Priority delivery slots</li>
+              <li><i class="fas fa-check"></i> GST invoice provided</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Enquire Now</button>
+          </div>
+        </div>
+
+        <div class="service-full-card">
+          <div class="sfc-header blue">
+            <i class="fas fa-file-contract"></i>
+            <h3>New Gas Connection</h3>
+          </div>
+          <div class="sfc-body">
+            <p>Get a brand new HP Gas connection in Kurnool with complete documentation assistance. Our team guides you through every step of the KYC and registration process.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> Complete KYC assistance</li>
+              <li><i class="fas fa-check"></i> Aadhaar linking support</li>
+              <li><i class="fas fa-check"></i> Free regulator installation</li>
+              <li><i class="fas fa-check"></i> Safety demo provided</li>
+              <li><i class="fas fa-check"></i> Quick processing in 3–5 days</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="service-full-card">
+          <div class="sfc-header red">
+            <i class="fas fa-wrench"></i>
+            <h3>Equipment &amp; Accessories</h3>
+          </div>
+          <div class="sfc-body">
+            <p>Purchase genuine HP Gas regulators, hose pipes, and safety accessories directly from our Kurnool agency. All products are ISI marked and BIS certified.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> ISI marked regulators</li>
+              <li><i class="fas fa-check"></i> BIS certified hose pipes</li>
+              <li><i class="fas fa-check"></i> Gas stove accessories</li>
+              <li><i class="fas fa-check"></i> Leak detection equipment</li>
+              <li><i class="fas fa-check"></i> Genuine HP Gas products only</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="service-full-card">
+          <div class="sfc-header blue">
+            <i class="fas fa-shield-halved"></i>
+            <h3>Safety Inspection</h3>
+          </div>
+          <div class="sfc-body">
+            <p>Free periodic safety inspections of your LPG setup including cylinder, regulator, hose pipe, and burner. Our certified technicians ensure your Kurnool home is gas-safe.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> Free of charge</li>
+              <li><i class="fas fa-check"></i> Certified technicians</li>
+              <li><i class="fas fa-check"></i> Regulator &amp; pipe check</li>
+              <li><i class="fas fa-check"></i> Leak detection test</li>
+              <li><i class="fas fa-check"></i> Safety certificate issued</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Schedule</button>
+          </div>
+        </div>
+
+        <div class="service-full-card">
+          <div class="sfc-header red">
+            <i class="fas fa-rotate"></i>
+            <h3>Connection Transfer</h3>
+          </div>
+          <div class="sfc-body">
+            <p>Relocated to Kurnool? Transfer your existing HP Gas connection to Sri Padmavathi HP Gas Agency seamlessly. Minimal paperwork, fast processing.</p>
+            <ul>
+              <li><i class="fas fa-check"></i> Minimal documentation</li>
+              <li><i class="fas fa-check"></i> Fast 2–3 day processing</li>
+              <li><i class="fas fa-check"></i> No extra charges</li>
+              <li><i class="fas fa-check"></i> Subsidy transfer support</li>
+              <li><i class="fas fa-check"></i> Bank account linking</li>
+            </ul>
+            <button class="btn-primary small" onclick="showPage('contact')">Transfer Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ========== PAGE: BOOKING ========== -->
+<div id="page-booking" class="page">
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-tag white">Quick &amp; Easy</span>
+      <h1>Book Your <span class="red-text">Gas Cylinder</span></h1>
+      <p>Fill the form below and we'll confirm your booking within minutes</p>
+    </div>
+    <div class="page-hero-wave"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="booking-layout">
+        <div class="booking-form-wrap">
+          <div class="booking-form-card">
+            <div class="form-header">
+              <i class="fas fa-cylinder"></i>
+              <h2>New Booking Request</h2>
+              <p>We'll call you back to confirm within 30 minutes</p>
+            </div>
+            <form id="bookingForm" onsubmit="submitBooking(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label><i class="fas fa-user"></i> Full Name *</label>
+                  <input id="b-name" type="text" placeholder="Enter your full name" required />
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-phone"></i> Mobile Number *</label>
+                  <input id="b-phone" type="tel" placeholder="+91 XXXXX XXXXX" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label><i class="fas fa-id-card"></i> Consumer Number *</label>
+                  <input id="b-consumer" type="text" placeholder="Your HP Gas consumer number" required />
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-cylinder"></i> Cylinder Type *</label>
+                  <select id="b-type" required>
+                    <option value="">Select cylinder type</option>
+                    <option>Domestic 14.2 kg (Regular)</option>
+                    <option>Domestic 5 kg (Mini)</option>
+                    <option>Commercial 19 kg</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label><i class="fas fa-cubes"></i> Quantity</label>
+                  <select id="b-qty">
+                    <option>1 Cylinder</option>
+                    <option>2 Cylinders</option>
+                    <option>3 Cylinders</option>
+                    <option>4+ Cylinders</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-calendar"></i> Preferred Delivery Date</label>
+                  <input id="b-date" type="date" />
+                </div>
+              </div>
+              <div class="form-group full">
+                <label><i class="fas fa-map-marker-alt"></i> Delivery Address *</label>
+                <textarea id="b-address" placeholder="Enter your complete delivery address in Kurnool with landmark" rows="3" required></textarea>
+              </div>
+              <div class="form-group full">
+                <label><i class="fas fa-comment"></i> Special Instructions (Optional)</label>
+                <textarea id="b-notes" placeholder="Any special delivery instructions..." rows="2"></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width">
+                <i class="fas fa-paper-plane"></i> Submit Booking Request
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="booking-sidebar">
+          <div class="booking-info-card">
+            <h3><i class="fas fa-phone"></i> Quick Contact</h3>
+            <a href="tel:+919876543210" class="quick-contact-btn">
+              <i class="fas fa-phone-volume"></i>
+              <div>
+                <strong>Call Us</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </a>
+            <a href="https://wa.me/919949332266" class="quick-contact-btn whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>Chat &amp; Book</span>
+              </div>
+            </a>
+            <a href="tel:18002333555" class="quick-contact-btn ivrs">
+              <i class="fas fa-headset"></i>
+              <div>
+                <strong>IVRS Booking</strong>
+                <span>1800-233-3555 (Free)</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="booking-steps-card">
+            <h3><i class="fas fa-list-ol"></i> How It Works</h3>
+            <div class="steps">
+              <div class="step">
+                <div class="step-num">1</div>
+                <div>
+                  <strong>Fill the Form</strong>
+                  <p>Enter your details and preferred delivery date</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-num">2</div>
+                <div>
+                  <strong>Confirmation Call</strong>
+                  <p>We call you within 30 min to confirm the booking</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-num">3</div>
+                <div>
+                  <strong>Delivery</strong>
+                  <p>Cylinder delivered to your doorstep on schedule</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-num">4</div>
+                <div>
+                  <strong>Pay &amp; Sign</strong>
+                  <p>Pay by cash/UPI and sign the delivery receipt</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-note-card">
+            <i class="fas fa-triangle-exclamation"></i>
+            <p>Please keep your <strong>Consumer Number</strong> and <strong>Aadhaar-linked mobile number</strong> handy while booking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ========== PAGE: SAFETY ========== -->
+<div id="page-safety" class="page">
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-tag white">Your Safety Matters</span>
+      <h1>LPG <span class="red-text">Safety Guidelines</span></h1>
+      <p>Essential safety tips to protect your family and home in Kurnool</p>
+    </div>
+    <div class="page-hero-wave"></div>
+  </section>
+
+  <!-- EMERGENCY BANNER -->
+  <div class="emergency-banner">
+    <div class="container">
+      <div class="emergency-content">
+        <i class="fas fa-triangle-exclamation"></i>
+        <div>
+          <strong>Gas Emergency?</strong>
+          <span>If you smell gas, call the emergency helpline immediately</span>
+        </div>
+        <a href="tel:1906" class="emergency-btn">
+          <i class="fas fa-phone-volume"></i> 1906 (Free)
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Do's &amp; Don'ts</span>
+        <h2>Essential <span class="red-text">LPG Safety</span> Rules</h2>
+        <p>Following these guidelines can prevent accidents and save lives</p>
+      </div>
+      <div class="dos-donts">
+        <div class="dos">
+          <div class="dos-header">
+            <i class="fas fa-circle-check"></i>
+            <h3>DO's</h3>
+          </div>
+          <ul>
+            <li><i class="fas fa-check"></i> Always keep the gas cylinder in an upright position</li>
+            <li><i class="fas fa-check"></i> Ensure proper ventilation in the kitchen at all times</li>
+            <li><i class="fas fa-check"></i> Turn off the regulator knob when gas is not in use</li>
+            <li><i class="fas fa-check"></i> Check hose pipe for cracks and replace every 2 years</li>
+            <li><i class="fas fa-check"></i> Keep cylinders away from heat sources</li>
+            <li><i class="fas fa-check"></i> Verify the seal is intact when taking delivery</li>
+            <li><i class="fas fa-check"></i> Use only ISI marked regulators and hose pipes</li>
+            <li><i class="fas fa-check"></i> Call 1906 in case of any gas emergency</li>
+            <li><i class="fas fa-check"></i> Get your LPG equipment checked annually</li>
+          </ul>
+        </div>
+        <div class="donts">
+          <div class="donts-header">
+            <i class="fas fa-circle-xmark"></i>
+            <h3>DON'Ts</h3>
+          </div>
+          <ul>
+            <li><i class="fas fa-xmark"></i> Never use a naked flame to detect gas leaks</li>
+            <li><i class="fas fa-xmark"></i> Do not store the cylinder near heat sources or flames</li>
+            <li><i class="fas fa-xmark"></i> Never use a damaged or leaking cylinder</li>
+            <li><i class="fas fa-xmark"></i> Do not use a cylinder that is lying on its side</li>
+            <li><i class="fas fa-xmark"></i> Never tamper with the safety valve</li>
+            <li><i class="fas fa-xmark"></i> Do not use non-standard or locally made pipes</li>
+            <li><i class="fas fa-xmark"></i> Never leave the gas on while sleeping</li>
+            <li><i class="fas fa-xmark"></i> Do not use electrical switches if you smell gas</li>
+            <li><i class="fas fa-xmark"></i> Never attempt to refill cylinders at home</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT TO DO IN EMERGENCY -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Emergency Protocol</span>
+        <h2>What To Do If You <span class="red-text">Smell Gas</span></h2>
+      </div>
+      <div class="emergency-steps">
+        <div class="emergency-step">
+          <div class="es-num red">1</div>
+          <div class="es-icon"><i class="fas fa-fire-flame-simple"></i></div>
+          <h4>Don't Panic</h4>
+          <p>Stay calm and act methodically. Panicking can cause more harm.</p>
+        </div>
+        <div class="es-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="emergency-step">
+          <div class="es-num red">2</div>
+          <div class="es-icon"><i class="fas fa-toggle-off"></i></div>
+          <h4>Turn Off Regulator</h4>
+          <p>Immediately turn off the regulator knob on the cylinder.</p>
+        </div>
+        <div class="es-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="emergency-step">
+          <div class="es-num red">3</div>
+          <div class="es-icon"><i class="fas fa-wind"></i></div>
+          <h4>Open Windows</h4>
+          <p>Open all doors and windows for maximum ventilation.</p>
+        </div>
+        <div class="es-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="emergency-step">
+          <div class="es-num red">4</div>
+          <div class="es-icon"><i class="fas fa-bolt-lightning"></i></div>
+          <h4>No Electrical Switches</h4>
+          <p>Don't switch on/off any lights or electrical appliances.</p>
+        </div>
+        <div class="es-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="emergency-step">
+          <div class="es-num red">5</div>
+          <div class="es-icon"><i class="fas fa-phone"></i></div>
+          <h4>Call 1906</h4>
+          <p>Call the emergency helpline from outside the house.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFETY CERTIFICATIONS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Certifications</span>
+        <h2>Our <span class="red-text">Safety Standards</span></h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fas fa-award"></i>
+          <h4>BIS Certified</h4>
+          <p>All cylinders meet Bureau of Indian Standards specifications</p>
+        </div>
+        <div class="cert-card">
+          <i class="fas fa-shield-halved"></i>
+          <h4>HPCL Authorised</h4>
+          <p>Official distributor under Hindustan Petroleum Corporation</p>
+        </div>
+        <div class="cert-card">
+          <i class="fas fa-flask"></i>
+          <h4>Quality Tested</h4>
+          <p>Each cylinder is pressure-tested before dispatch</p>
+        </div>
+        <div class="cert-card">
+          <i class="fas fa-user-shield"></i>
+          <h4>Trained Staff</h4>
+          <p>All delivery personnel are trained in LPG safety protocols</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ========== PAGE: CONTACT ========== -->
+<div id="page-contact" class="page">
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-tag white">Get In Touch</span>
+      <h1>Contact <span class="red-text">Us</span></h1>
+      <p>We're here to help — reach us by phone, email, or visit our Kurnool office</p>
+    </div>
+    <div class="page-hero-wave"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h2>Reach <span class="red-text">Us Anytime</span></h2>
+          <p>Our team is available Monday to Saturday, 9 AM to 6 PM in Kurnool. For emergencies, call 1906 anytime.</p>
+
+          <div class="contact-cards">
+            <div class="contact-info-card">
+              <div class="ci-icon blue"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Our Address</h4>
+                <p>Sri Padmavathi HP Gas Agency<br/>
+                Kurnool City, Andhra Pradesh — 518 001</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="ci-icon red"><i class="fas fa-phone"></i></div>
+              <div>
+                <h4>Phone Numbers</h4>
+                <p>+91 98765 43210 (Primary)<br/>
+                +91 87654 32109 (Alternate)<br/>
+                1800-233-3555 (IVRS, Free)</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="ci-icon blue"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p><a href="https://wa.me/919949332266" style="color:inherit;">+91 99493 32266</a></p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="ci-icon red"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Monday – Saturday: 9:00 AM – 6:00 PM<br/>
+                Sunday: Closed<br/>
+                Emergency: 1906 (24/7)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h4>Chat With Us</h4>
+            <div class="socials">
+              <a href="https://wa.me/919949332266" target="_blank" rel="noopener noreferrer" class="social-btn wa"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="contact-form-card">
+            <h3>Send Us a Message</h3>
+            <form onsubmit="submitContact(event)">
+              <div class="form-group">
+                <label>Full Name *</label>
+                <input id="c-name" type="text" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label>Mobile Number *</label>
+                <input id="c-phone" type="tel" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+              <div class="form-group">
+                <label>Subject *</label>
+                <select id="c-subject" required>
+                  <option value="">Select subject</option>
+                  <option>New Gas Connection</option>
+                  <option>Refill Booking</option>
+                  <option>Safety Inspection</option>
+                  <option>Commercial Enquiry</option>
+                  <option>Complaint</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Message *</label>
+                <textarea id="c-message" placeholder="Write your message here..." rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAP SECTION -->
+      <div class="map-section">
+        <h3><i class="fas fa-map-marker-alt"></i> Find Us on the Map</h3>
+        <div class="map-embed-wrap">
+          <iframe
+            src="https://maps.google.com/maps?q=15.8035547,78.03853&z=17&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 16px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Sri Padmavathi HP Gas Agency Location">
+          </iframe>
+          <div class="map-actions">
+            <a href="https://www.google.com/maps/place/Padmavathi+HP+gas+agency/@15.8035547,78.03853,17z/data=!3m1!4b1!4m6!3m5!1s0x3bb5dd005b19399d:0x6d543037c8e09718!8m2!3d15.8035547!4d78.03853!16s%2Fg%2F11yn3yqltc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn-primary small">
+              <i class="fas fa-directions"></i> Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-img-wrap">
+              <img src="logo-hp-gas.png" alt="HP Gas" />
+            </div>
+            <div>
+              <span class="footer-logo-title">Sri Padmavathi</span>
+              <span class="footer-logo-sub">HP Gas Agency</span>
+            </div>
+          </div>
+          <p>Your trusted authorised HP Gas dealership in Kurnool. Serving thousands of happy customers with safe, reliable, and timely LPG delivery since 1985.</p>
+          <div class="footer-socials">
+            <a href="https://wa.me/919949332266" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a onclick="showPage('home')"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a onclick="showPage('about')"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a onclick="showPage('booking')"><i class="fas fa-chevron-right"></i> Book Gas</a></li>
+            <li><a onclick="showPage('safety')"><i class="fas fa-chevron-right"></i> Safety</a></li>
+            <li><a onclick="showPage('contact')"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Domestic LPG</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Commercial LPG</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> New Connection</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Safety Inspection</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Equipment Sale</a></li>
+            <li><a onclick="showPage('services')"><i class="fas fa-chevron-right"></i> Connection Transfer</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="footer-contact-list">
+            <div class="fc-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kurnool City,<br/>Andhra Pradesh — 518 001</span>
+            </div>
+            <div class="fc-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 98765 43210</span>
+            </div>
+            <div class="fc-item">
+              <i class="fab fa-whatsapp"></i>
+              <span>+91 99493 32266</span>
+            </div>
+            <div class="fc-item">
+              <i class="fas fa-clock"></i>
+              <span>Mon–Sat: 9AM – 6PM</span>
+            </div>
+            <div class="fc-item emergency">
+              <i class="fas fa-triangle-exclamation"></i>
+              <span>Emergency: <strong>1906</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2025 Sri Padmavathi HP Gas Agency, Kurnool. All rights reserved. | Authorised HP Gas Dealer</p>
+      <p>Powered by <strong>Hindustan Petroleum Corporation Limited</strong></p>
+    </div>
+  </div>
+</footer>
+
+<!-- SUCCESS MODAL -->
+<div id="successModal" class="modal-overlay" onclick="closeModal()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-icon"><i class="fas fa-circle-check"></i></div>
+    <h3 id="modalTitle">Booking Submitted!</h3>
+    <p id="modalMsg">Thank you! We'll call you within 30 minutes to confirm your booking.</p>
+    <button class="btn-primary" onclick="closeModal()">Done</button>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
